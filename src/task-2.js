@@ -17,7 +17,7 @@ const toggleUserState = (users, userName) => {
     })
 };
 
-const logger = updatedUsers => console.table(updatedUsers);
+const logger = data => console.table(data);
 
 
 toggleUserState(users, 'Mango').then(logger);
